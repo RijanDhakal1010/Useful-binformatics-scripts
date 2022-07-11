@@ -1,0 +1,5 @@
+library(onekp)
+species_names = readLines("Desktop/first_list_of_names.csv", warn=FALSE)
+onekp <- retrieve_onekp()
+seqs <- filter_by_species(onekp, species_names)
+download_peptides(seqs)
