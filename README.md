@@ -1,4 +1,6 @@
-# The folders are demarcated accoridng to the language they hold. This repo is for scripts/code and scripts/code only. Actual data files can be easily replicated and as such I have decided to document how to generate data instead of storing it here.  
+# Note the readme is not currently up to date.
+
+# The folders are demarcated accoridng to the language they hold. This repo is for scripts/code and scripts/code only. Actual data files can be easily replicated and as such I have decided to document how to generate data instead of storing it here. 
 
 # Bash
 
