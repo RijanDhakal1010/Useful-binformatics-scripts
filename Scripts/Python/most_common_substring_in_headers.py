@@ -38,7 +38,7 @@ exten = f'.{args.ext}' # this is the extension of the files that you want to par
 
 dict_of_headers = {} # this is the dictionary that will hold the headers and their counts
 
-for i in curr:
+for i in curr: # this is the name of the most recent fast file as received from line 32 or what has the name curr = os.listdir(args.loc)
     if i.endswith(exten):
         with open(i,'rt') as current_fasta_file:
             fasta_lines = current_fasta_file.readlines()
